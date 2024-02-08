@@ -1,7 +1,7 @@
 <template>
    <header>
-        <span class="h-element"> About me </span>
-        <span class="h-element"> My experience </span>
+        <span class="h-element">  <router-link to="/"> About me </router-link> </span>
+        <span class="h-element"> <router-link to="/experience"> My experience </router-link> </span>
         <span class="h-element"> My projects </span>
         <span class="h-element"> Contact </span>
    </header>
